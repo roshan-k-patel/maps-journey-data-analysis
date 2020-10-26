@@ -16,7 +16,7 @@ DB_PASS = ""
 DB_HOST = "john.db.elephantsql.com"
 DB_PORT = "5432"
 
-# Takes in a "cleaned" address as input and returns it's coordinates and the address in standardised google maps format
+# Takes in a "cleaned" address as input and returns its coordinates and the address in standardised google maps format
 def searchAddress(address):
     geocode_result = gmaps.geocode(address)
 
