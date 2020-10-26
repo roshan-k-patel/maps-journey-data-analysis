@@ -38,7 +38,7 @@ def searchDistance(source, destination):
 # Reads the Addresses File.xlsx provided and performs data cleaning and processing
 def readAndCleanXlsx():
 
-    # Pandas library used to write formatted data to new excel sheet, column named listed below
+    # Pandas library used to write formatted data to new excel sheet, column names listed below
     w = pd.ExcelWriter("Formatted Addresses File.xlsx")
     df = pd.DataFrame(
         columns=["Uid", "Source", "Destination", "Distance(km)", "Source lat/long", "Destination lat/long",
